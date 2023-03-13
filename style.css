@@ -1,0 +1,472 @@
+
+
+/*applying the margin, padding for all webpages*/
+*{
+	margin: 1px;
+	padding: 1px;
+	font-family: Arial;
+}
+
+/*applying CSS in the Home page along with the header, main and the footer*/
+
+
+/*applying the background color and maintain of the height and with along with the padding for the heading of the mobile shop*/
+.heading{
+	background-color: #E39789;
+	height: 180px;
+	width: 1490px;
+	padding-right: 10px;
+}
+
+/*applying the float and the margin for the title name of the shop in the webpage*/
+.mobile-shop{
+	float: left;
+	margin-top: 4px;
+}
+
+/*applying CSS in the navigation bar*/
+.navigation{
+	height: 40px;
+	width: 600px;
+	font-size: 25px;
+	padding-top: 1px;
+	padding-left:1px;
+	margin-top: 120px;
+	float: right;
+}
+
+
+/*applying CSS for the logo*/
+.logo{
+	float: left;
+}
+
+
+/*applying CSS for the image banner*/
+.ban{
+	margin-left: 50px;
+	margin-top: 20px;
+	float: middle;
+	width: 1430;
+	padding-left: 170px;
+	padding-bottom: 2px;
+}	
+
+
+/*applying CSS for the id of the images of banner*/
+#slide{
+   	width: 80%;
+   	height: 100%;
+   	border-radius: 20px;
+   	float: middle;
+}
+
+
+/*applying CSS for the brand images*/
+.brand-img{
+	width: 100px;
+}
+
+
+/*applying CSS to contain the images of brand in this container*/
+.ima{
+	align-items: center;
+    height: 170px;
+	width: 1500px;
+	background-color: #D2D999;
+}
+
+
+
+
+/*applying CSS for the image of the iphone brand */
+.an{
+	float: left;
+	height: 160px;
+	width: 160px;
+	margin-left: 100px;
+	transition: transform 0.2s;
+	background-color: white;
+}
+
+/*putting hover effect in the image of iphone brand*/
+.an:hover {
+	transform: scale(1.1);
+}
+
+
+/*applying CSS for the name of the brand iphone*/
+.han{
+	margin-top: 30px;
+}
+
+/*applying CSS for the image of the samsung brand */
+.b{
+	float: left;
+	height: 160px;
+	width: 160px;
+	margin-left: 200px;
+	transition: transform 0.2s;
+	background-color: white;
+}
+
+/*putting hover effect in the image of samsung brand*/
+.b:hover {
+	transform: scale(1.1);
+}
+
+/*applying CSS for the name of the brand samsung*/
+.hb{
+	margin-top: 35px;
+}
+
+/*applying CSS for the image of the mi xiaomi brand*/
+.c{
+	float: left;
+	height: 160px;
+	width: 160px;
+	margin-left: 200px;
+	transition: transform 0.2s;
+	background-color: white;
+}
+
+/*putting hover effect in the image of mi xiaomi brand*/
+.c:hover {
+	transform: scale(1.1);
+}
+
+/*applying CSS for the name of the brand mi xiaomi*/
+.hc{
+	margin-top: 24px;
+}
+
+/*applying CSS for the image of the huawei brand */
+.d{
+	float: left;
+	height: 160px;
+	width: 160px;
+	margin-left: 200px;
+	transition: transform 0.2s;
+	background-color: white;
+}
+
+/*putting hover effect in the image of huawei brand*/
+.d:hover{
+	transform: scale(1.1);
+}
+
+/*applying CSS for the name of the brand huawei*/
+.hd{
+	margin-top: 10px;
+	margin-left: 40px;
+}
+
+/*applying the CSS in the main footer container*/
+.fo{
+	border: solid 2px darkblue;
+	background-color: #E39789;
+}
+
+/*applying CSS for the container where the text is free app*/
+.fre{
+	font-size: 25px;
+	float: left;
+}
+
+/*applying CSS for the container where the text is about the company*/
+.aus{
+	margin-left: 320px;
+	height: 200px;
+	margin-top: -75px;
+	width: 700px;
+	text-align: center;
+}
+
+/*applying CSS for the container of text follow us*/
+.fol{
+	float: right;
+	margin-top: -205px;
+	margin-right: 250px;
+}
+
+/*applying CSS for the container of the logo of the social media*/
+.la{
+	float: right;
+	margin-top: -165px;
+}
+
+
+/*applying CSS for the navigation bar link*/
+.w{
+	background-color: #2D91E4;
+	border-radius: solid 4px;
+	display: absolute;
+	transition: 0.2s;
+	height: 60px; 
+	width: 100px;
+
+}
+
+/*applying CSS hover effect in the navigation bar*/
+.w:hover{
+	border: 2px solid transparent;
+	transform: scale(1.05);
+}
+
+
+
+
+/*applying CSS in the product page as the header and the footer is same as homepage the main is only changes*/
+
+
+
+/*applying CSS for the container where all the product main is formed and structured*/
+.t{
+	height: 700px;
+	background-color: #D2D999;
+}
+
+/*applying CSS for the container of text products*/
+.p{
+	text-align: center;
+	font-size: 50px;
+}
+
+/*applying CSS for the container of text iphone*/
+.i{
+	float: left;
+	margin-left: 170px;
+	font-size: 40px;
+	background-color: indianred;
+}
+
+/*applying CSS for the container of text samsung*/
+.s{
+	float: left;
+	margin-left: 170px;
+	font-size: 40px;
+	background-color: blue;
+}
+
+/*applying CSS for the container of text mi xiaomi*/
+.m{
+	float: left;
+	margin-left: 170px;
+	font-size: 40px;
+	background-color: orange;
+}
+
+/*applying CSS for the container of text huawei*/
+.h{
+	float: left;
+	margin-left: 170px;
+	font-size: 40px;
+	background-color: silver;
+}
+
+/*applying CSS for the container where the 4 products items are assigned*/
+.iea{
+	align-items: center;
+    height: 170px;
+	width: 1485px;
+	margin-top: 90px;
+	height: 250px;
+}
+
+/*applying CSS for the container of the image of the products*/
+.v{
+	float: left;
+	height: 160px;
+	width: 250px;
+	margin-left: 100px;
+	transition: transform 0.2s ;
+	height: 240px;
+	background-color: white;
+}
+
+/*applying hover effect in the product image*/
+.v:hover {
+	transform: scale(1.1);
+}
+
+/*applying CSS for the container of text name and the price of the products*/
+.vi{
+	margin-top: 30px;
+}
+
+/*applying CSS for the container of the image of the products*/
+.x{
+	float: left;
+	height: 160px;
+	width: 250px;
+	margin-left: 70px;
+	transition: transform 0.2s ;
+	height: 240px;
+	background-color: white;
+}
+
+/*applying hover effect in the product image*/
+.x:hover {
+	transform: scale(1.1);
+}
+
+/*applying CSS for the container of text name and the price of the products*/
+.xs{
+	margin-top: 35px;
+}
+
+/*applying CSS for the container of the image of the products*/
+.y{
+	float: left;
+	height: 160px;
+	width: 250px;
+	margin-left: 100px;
+	transition: transform 0.2s ;
+	height: 240px;
+	background-color: white;
+}
+
+/*applying hover effect in the product image*/
+.y:hover {
+	transform: scale(1.1);
+}
+
+/*applying CSS for the container of text name and the price of the products*/
+.ym{
+	margin-top: 24px;
+}
+
+/*applying CSS for the container of the image of the products*/
+.z{
+	float: right;
+	height: 160px;
+	width: 250px;
+	margin-right: 90px;
+	transition: transform 0.2s ;
+	height: 240px;
+	background-color: white;
+}
+
+/*applying hover effect in the product image*/
+.z:hover{
+	transform: scale(1.1);
+}
+
+/*applying CSS for the container of text name and the price of the products*/
+.zh{
+	margin-top: 10px;
+	margin-left: 2px;
+	padding-left: 2px;
+	text-align: left;
+	background-color: white;
+}
+
+
+
+/*applying CSS in the blog page as the header and the footer is same as homepage the main is only changes*/
+
+
+/*applying CSS in the container where forming a single div along with the images and description about a technology is placed*/
+.l{
+	height: 870px;
+}
+
+/*applying CSS in the container where the image of technology is insert*/
+.techimg{
+	padding-left: 250px;
+}
+
+/*applying CSS in the container where the image of current status technology is insert*/
+.oi{
+	float: left;
+	margin-left: 80px;
+	background-color: white;
+	width: 150px;
+	padding-left: 50px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+/*applying CSS in the container where the image of current status technology is insert*/
+.os{
+	float: left;
+	margin-left: 80px;
+	background-color: white;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+/*applying CSS in the container where the image of current status technology is insert*/
+.ox{
+	float: left;
+	margin-left: 80px;
+	margin-top: -10px;
+	background-color: white;
+}
+
+/*applying CSS in the container where the image of current status technology is insert*/
+.oh{
+	float: left;
+	margin-left: 80px;
+	margin-top: -4px;
+	background-color: white;
+	padding-top: 30px;
+	padding-left: 50px;
+	padding-bottom: 20px;
+	padding-right: 30px;
+	width: 250px;
+	height: 150px;
+}
+
+/*applying CSS in the container where the advantageous and disadvantageous of the technology is insert*/
+.ad{
+	margin-top: 200px;
+}
+
+
+/*applying CSS in the research page as the header and the footer is same as homepage the main is only changes*/
+
+
+/*applying CSS for the container of the text which is of description of website reference*/
+.hoversampletxt{
+	float: right;
+	height: 200px;
+	width: 700px;
+	margin-top: -280px;
+	background-color: #D2D999;
+}
+
+
+/*applying CSS in the contact us page as the header and the footer is same as homepage the main is only changes*/
+
+
+/*applying CSS in the container for the form validation*/
+.contbor{
+	height: 550px;
+	background-color: #D2D999;
+}
+
+/*applying CSS in the container where the first name, last name, phone number and gender is insert*/
+.namny{
+	float: left;
+	width: 735px;
+	background-color: yellowgreen;
+}
+
+/*applying CSS in the container where the message is insert */
+.msg{
+	float: right;
+	width: 735px;
+	height: 505px;
+	background-color: yellowgreen;
+}
+
+/*applying CSS in the container where the submit button is present */
+.sbmit{
+	margin-top: 550px;
+	width: 92px;
+	margin-left: 700px;
+	margin-top: 520px;
+	background-color: yellowgreen;
+}
+
